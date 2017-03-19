@@ -88,20 +88,39 @@
 	border: 1px solid #c6c6c6;
 }
 
-footer ul{
+footer{
+	background: #f2f2f2;
+	margin: 0;
+	margin-left: -27px;
+	border-top: 1px solid #e4e4e4;
+	height: 35px;
+	font-size: 10pt;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul li{
 	display: inline;
+}
+
+ul li a{
+	text-decoration: none;
+	padding: 10px;
+	color: #757575;
+
+}
+
+ul li a:hover{
+	text-decoration: underline;
 }
 
 .footer_l{
 	float: left;
-	list-style-type: none;
-	display: inline;
-}
-
-.footer_l li a{
-	text-decoration: none;
-	float: right;
-	display: inline;
 
 }
 
